@@ -1,0 +1,30 @@
+# Ansible
+*.retry
+*.log
+.ansible/
+*.swp
+*.swo
+*~
+
+# Secrets and credentials
+group_vars/windows.yml
+group_vars/*vault*
+vault-password-file
+.vault_pass
+*.pem
+*.ppk
+*.key
+.env
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
